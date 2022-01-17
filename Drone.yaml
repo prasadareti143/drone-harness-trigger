@@ -14,10 +14,8 @@ steps:
 - name: publish  
   image: plugins/docker
   settings:
-    username:
-      from_secret: docker_username
-    password:
-      from_secret: docker_password
+    username: prasadaws143 
+    password: Volley@143
     repo: prasadaws143/drone-harness-trigger
     tags:
       - '1.0.0'
